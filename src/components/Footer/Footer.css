@@ -1,0 +1,28 @@
+/* FOOTER */
+.footer-container {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+      
+/* FOOTER SECTION */
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px 20px;
+}
+      
+/* FOOTER LINKS */
+.footer-section h4,
+.footer-section p {
+  margin: 5px 10px;
+  font-size: 16.7px;
+}
+      
+/* Copyright Text */
+.footer-section p:last-child {
+  margin-top: 10px;
+}

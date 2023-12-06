@@ -1,0 +1,50 @@
+/* Navigation.css */
+
+/* Navigation Container */
+.navbar {
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Navigation Links Container */
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  /* Individual Link */
+  .nav-link {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Link Hover Effect */
+  .nav-link:hover {
+    background-color: #555;
+  }
+  
+  /* Add a style for the active link */
+  .active-link {
+    background-color: #555;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .nav-link {
+      margin: 5px;
+    }
+  }

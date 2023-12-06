@@ -1,0 +1,92 @@
+.resume-container {
+padding: 50px;
+text-align: center;
+background-color: #fff;
+border: 1px solid #ccc;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+margin-bottom: 20px;
+margin-top: 20px;
+}
+      
+.resume-container h1 {
+margin-bottom: 20px;
+}
+
+/* Resume Links */
+.resume-container a,
+.resume-container .resume-link {
+  font-size: 16px;
+  background-color: #fff;
+  text-decoration: none;
+  margin: 0 10px; /* Adjust the margin to reduce spacing between links */
+  transition: color 0.3s ease;
+}
+
+/* Resume Links Hover Effect */
+.resume-container a:hover,
+.resume-container .resume-link:hover {
+  color: #0056b3;
+}
+      
+a {
+display: inline-block;
+margin-bottom: 20px;
+background-color: #007bff;
+color: rgb(9, 8, 8);
+transition: background-color 0.3s;
+}
+      
+.resume-section {
+text-align: left;
+margin-top: 30px;
+}
+      
+.resume-section h2 {
+border-bottom: 2px solid #333;
+padding-bottom: 5px;
+}
+      
+.experience-item, .education-item {
+margin-bottom: 20px;
+}
+      
+.date {
+font-style: italic;
+color: #555;
+}
+      
+ul {
+list-style-type: circle;
+margin-left: 20px;
+}
+
+.location, .phone {
+        font-size: 18px; 
+
+      }
+
+      /* BADGES AND ICONS */
+h2 b {
+  font-size: 24px; /* Decreased font size for badges heading */
+}
+
+.badgeresume {
+  margin-bottom: 20px; /* Add margin between badge sections */
+}
+
+.badgeresume img {
+  max-width: 100px; /* Set the maximum width */
+  max-height: 100px; /* Set the maximum height */
+  margin: 10px; /* Added margin for spacing */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add a background color to badge sections */
+.badgeresume h3 {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left; /* Change text alignment to left */
+  margin: 0;
+}
