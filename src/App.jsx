@@ -10,6 +10,7 @@ import Footer from './components/Footer/Footer';              // LOAD FOOTER SEC
 import Navigation from './components/Navigation/Navigation';  // LOAD NAV SECTION
 import Portfolio from './components/Portfolio/Portfolio';     // LOAD PORTFOLIO SECTION
 import Resume from './components/Resume/Resume';              // LOAD RESUME SECTION
+import Certificate from './components/Certificate/Certificate';           // LOAD CERTIFICATE SECTION
 import Home from './components/Home/Home';                    // LOAD HOME SECTION
 
 function App() {                                            // DEFINE 'App' COMPONENT FUNCTION
@@ -21,6 +22,7 @@ function App() {                                            // DEFINE 'App' COMP
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} /> 
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/certificate" element={<Certificate />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
     </Router>
