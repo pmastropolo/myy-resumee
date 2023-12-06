@@ -15,7 +15,7 @@ Links:
 
 :arrow_down:
 
-:arrow_forward: [Github Link : https://github.com/pmastropolo/myy-resumee/tree/main)
+:arrow_forward: [Github Link:] (https://github.com/pmastropolo/myy-resumee/tree/main)
 
 :arrow_forward: [Deployed on Netlify:] (https://sparkling-frangollo-20e7ef.netlify.app)
 
@@ -26,5 +26,3 @@ Links:
 :arrow_forward: Github link: https://github.com/pmastropolo/myy-resumee/tree/main
 
 :arrow_forward: Deployed on Netlify: https://sparkling-frangollo-20e7ef.netlify.app
-
-
