@@ -1,9 +1,9 @@
 # myy-resumee
 resume
 
-## Description
+![License](https://img.shields.io/badge/license-MIT-pink.svg?style=for-the-badge)
 
-Description: 
+## Description
 
 React application designed to showcase my professional skills and experiences. It includes various components that make up the different sections of the resume, such as an "About Me" section, a home page, a resume section, and a portfolio section.
 
