@@ -9,3 +9,22 @@ React application designed to showcase my professional skills and experiences. I
 
 The "About Me" section provides a brief introduction about me, highlighting my background, education, and any other relevant information. This section allows potential employers or clients to get a glimpse of my personality and interests.
 
+## Installation
+
+Links:
+
+:arrow_down:
+
+:arrow_forward: [Github Link : )
+
+:arrow_forward: [Deployed on Netlify:] (https://sparkling-frangollo-20e7ef.netlify.app)
+
+## Links
+
+:open_file_folder:
+
+:arrow_forward: Github link: 
+
+:arrow_forward: Deployed on Netlify: https://sparkling-frangollo-20e7ef.netlify.app
+
+
