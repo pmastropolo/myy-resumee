@@ -4,3 +4,4 @@ export { default as Home } from './Home/Home';                                  
 export { default as Navigation } from './Navigation/Navigation';                // NAVIGATION
 export { default as Portfolio } from './Portfolio/Portfolio';                   // PORTFOLIO PAGE
 export { default as Resume } from './Resume/Resume';                            // RESUME PAGE
+export { default as Certificate } from './Certificate/Certificate';             // Certificate Page
