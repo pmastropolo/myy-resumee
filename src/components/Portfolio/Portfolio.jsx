@@ -120,18 +120,18 @@ function Portfolio() {
 {
       id: 14,
       title: 'My Resume - React',
-      description: '',
+      description: 'React application designed to showcase my professional skills and experiences.',
       imageUrl: '',
       deployed: '',
       githubLink: '',
     },
     {
       id: 15,
-      title: '',
-      description: '',
+      title: 'Social App',
+      description: 'An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.',
       imageUrl: '',
-      deployed: '',
-      githubLink: '',
+      deployed: 'https://www.youtube.com/watch?v=UYZClo228xo',
+      githubLink: 'https://github.com/pmastropolo/proj-eight-teen-chall-nosql-social-network-api',
     },
 
   ];
