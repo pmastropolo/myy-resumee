@@ -10,10 +10,10 @@ import Footer from './components/Footer/Footer';              // LOAD FOOTER SEC
 import Navigation from './components/Navigation/Navigation';  // LOAD NAV SECTION
 import Portfolio from './components/Portfolio/Portfolio';     // LOAD PORTFOLIO SECTION
 import Resume from './components/Resume/Resume';              // LOAD RESUME SECTION
-import Certificate from './components/Certificate/Certificate';           // LOAD CERTIFICATE SECTION
+import Certificate from './components/Certificate/Certificate'; // LOAD CERTIFICATE SECTION
 import Home from './components/Home/Home';                    // LOAD HOME SECTION
 
-function App() {                                            // DEFINE 'App' COMPONENT FUNCTION
+function App() {                                            // DEFINE APP COMPONENT FUNCTION
   return (
     <>
       <Router> 
@@ -32,5 +32,4 @@ function App() {                                            // DEFINE 'App' COMP
 }
 
 
-
-export default App    // EXPORT 'App' COMPONENT
+export default App    // EXPORT APP COMPONENT
