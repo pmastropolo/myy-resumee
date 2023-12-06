@@ -117,7 +117,22 @@ function Portfolio() {
       deployed: 'https://pmastropolo.github.io/prework-study-guide/',
       githubLink: 'https://github.com/pmastropolo/prework-study-guide/tree/main/assets',
     },
-
+{
+      id: 14,
+      title: 'My Resume - React',
+      description: '',
+      imageUrl: '',
+      deployed: '',
+      githubLink: '',
+    },
+    {
+      id: 15,
+      title: '',
+      description: '',
+      imageUrl: '',
+      deployed: '',
+      githubLink: '',
+    },
 
   ];
 
