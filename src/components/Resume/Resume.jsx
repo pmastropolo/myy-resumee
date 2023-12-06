@@ -2,8 +2,7 @@ import React from 'react';
 import './Resume.css'; 
 
 function Resume() {
-
-  return (
+return (
 
 <div className="resume-container">
   <h1>Peyton Mastropolo Resume</h1>
@@ -58,19 +57,81 @@ function Resume() {
 </section>
 
 <section className="resume-section">
-      <h2>Experience</h2>
+    <h2>Experience</h2>
 
-
-        <div className="experience-item">
-        <h3>Office Administrator - Absolute Cleaning Solutions</h3>
-        <p className="date">Feb 2019 - December 2022</p>
-        <p className="date">Alabaster, Al 35007</p>
-        <p className="date">205-612-6199</p>
-        <p><b>Scheduling:</b> Efficiently managed appointments, coordinating with customers and the field team to ensure timely service delivery.</p>
+      <div className="experience-item">
+      <h3>Office Administrator - Absolute Cleaning Solutions</h3>
+      <p className="date">Feb 2019 - December 2022</p>
+      <p className="date">Alabaster, Al 35007</p>
+       <p><b>Scheduling:</b> Efficiently managed appointments, coordinating with customers and the field team to ensure timely service delivery.</p>
         <p><b>Communication:</b> Facilitated effective communication between customers and the field team, ensuring job details and customer expectations were met.</p>
         <p><b>Administrative Support:</b> Assisted with administrative tasks such as data entry, filing, and maintaining customer records, contributing to improved office organization.</p>
         <p><b>Billing & Payments:</b> Processed invoices, received payments, and handled billing inquiries, ensuring accurate and timely financial transactions.</p>
         <p><b>Problem Solving:</b> Resolved customer issues and concerns promptly, ensuring high satisfaction levels and repeat business.</p>
+    </div>
+    <br></br>
+
+    <div className="experience-item">
+        <h3>Sales/Independent Contractor - eBay Sellers</h3>
+        <p className="date">Aug 2016 - Dec 2018</p>
+        <p><b>Inventory Management:</b> Created and managed inventory of items to be sold online, ensuring proper updates and organization.</p>
+<p><b>Customer Engagement:</b> Determined customers' requirements online and provided them with suggestions, showcasing strong customer engagement skills.</p>
+<p><b>Inventory Monitoring:</b> Regularly reviewed the inventory to determine if customers' required items were available.</p>
+<p><b>Order Fulfillment:</b> Picked, packed, and dispatched items, ensuring they were properly labeled and addressed, demonstrating effective order fulfillment abilities.</p>
+<p><b>SEO and Marketing:</b> Handled search engine optimization (SEO) work to prioritize product marketing to customers.</p>
+<p><b>Customer Support:</b> Resolved customers' complaints and issues using established company procedures, providing top-notch customer support.</p>
+<p><b>Communication:</b> Responded to customer queries over email and through the website's chat support, highlighting strong communication skills.</p>
+    </div>
+    <br></br>
+
+
+    <div className="experience-item">
+        <h3>Cafe Supervisor - The Redmont Hotel/Cafe 2101</h3>
+        <p className="date">Sept 2015 - Aug 2016</p>
+        <p className="date">Birmingham, AL</p>
+  
+        <p><b>Inventory Management:</b> Maintained weekly inventory reports and placed orders when necessary, demonstrating strong organizational and supply management skills.</p>
+<p><b>Training and Supervision:</b> Trained new staff in cooking and cleaning procedures, and scheduled Barista training with an affiliated local coffee company, Revelator.</p>
+<p><b>Dependability:</b> Demonstrated reliability by always being available in Cafe 2101 and Harvest restaurant when needed.</p>
+<p><b>Customer Flow Management:</b> Maintained the flow of customers and service throughout the day, ensuring a positive customer experience.</p>
+<p><b>Coffee Expertise:</b> Handled all coffee orders for the restaurant and cafe, showcasing proficiency in coffee preparation and service.</p>
+<p><b>Safety and Cleanliness:</b> Maintained a clean and safe working environment and motivated the team to do the same, emphasizing the importance of hygiene and safety protocols.</p>
+    </div>
+    <br></br>
+
+    <div className="experience-item">
+        <h3>Creative Director Assistant - Partyology</h3>
+        <p className="date">Sept 2014 - Nov 2015</p>
+        <p className="date">Hueytown, AL</p>
+        <p><b>Customer Satisfaction:</b> Managed office operations, including answering phone calls, addressing customer inquiries, and ensuring a high level of customer satisfaction throughout the event planning process.</p>
+<p><b>Event Management:</b> Executed event logistics by booking and coordinating various events, demonstrating meticulous attention to detail to guarantee successful outcomes.</p>
+<p><b>Event Design:</b> Played a pivotal role in event setup and breakdown, ensuring a seamless and visually appealing environment for clients and attendees.</p>
+<p><b>Social Media Marketing:</b> Led social media marketing efforts to enhance brand visibility and engagement, utilizing platforms such as Facebook, Instagram, and Twitter to promote upcoming events and attract a wider audience.</p>
+<p><b>Team Leadership:</b> Conducted interviews and provided training for new staff, contributing to the development of a skilled and cohesive team.</p>
+    </div>
+
+    <br></br>
+    <div className="experience-item">
+        <h3>Customer Service Representative - United Tax Professionals</h3>
+        <p className="date">Jan 2015 - May 2015</p>
+        <p className="date">Birmingham, AL</p>
+        <p><b>Exceptional Customer Service:</b> Provided exceptional customer service by promptly and professionally answering phone calls, addressing inquiries, and ensuring a positive experience for clients.</p>
+<p><b>Office Management:</b> Managed office tasks such as copying and printing documents, contributing to efficient document organization and retrieval processes.</p>
+<p><b>Administrative Efficiency:</b> Executed various office duties, including running errands and delivering checks to other locations, showcasing reliability and dedication to meeting organizational needs.</p>
+<p><b>Time Management:</b> Performed driving responsibilities covering extensive miles, demonstrating strong time management and organizational skills while ensuring the timely delivery of documents and materials.</p>
+<p><b>Customer Engagement:</b> Welcomed and assisted customers upon entering the building, fostering a friendly and welcoming atmosphere.</p>
+    </div>
+
+    <br></br>
+    <div className="experience-item">
+        <h3>Head Cashier - Dairy Queen</h3>
+        <p className="date">Oct 2013 - Jan 2015</p>
+        <p className="date">Hueytown, AL</p>
+        <p><b>Cash Management:</b>Effectively managed and supervised cashiers, ensuring smooth and accurate transaction processes.</p>
+<p><b>Financial Oversight:</b>Oversaw daily cash handling activities, reconciled registers, and promptly addressed customer inquiries.</p>
+<p><b>Efficiency Improvement:</b>Implemented efficient cash management procedures, resulting in a reduction in discrepancies.</p>
+<p><b>Training Leadership:</b>Played a key role in training new staff on cash handling protocols and customer service standards, contributing to a skilled and cohesive team.</p>
+<p><b>Accuracy:</b>Maintained a high level of accuracy in financial transactions during the tenure from October 2013 to January 2015.</p>
     </div>
 
 
@@ -79,11 +140,11 @@ function Resume() {
 
 <section className="resume-section">
 <h2>Skills</h2>
-<div className="experience-item">
-
+<div className="skills-section">
 
 <div class="badgeresume"> 
-<h3>Languages</h3> 
+<h3>Languages</h3>
+{/* GRAPHQL BADGE*/}
 <img src="https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL Badge" /> 
 {/* HTML5 BADGE */}
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge" />
@@ -93,6 +154,7 @@ function Resume() {
 <img src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown Badge" />
 {/* POWERSHELL BADGE */}
 <img src="https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell Badge" />
+{/* WINDOWS BADGE*/}  
 <img src="https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white" alt="windows terminal" />
 {/* SHELL SCRIPT BADGE */}
 <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Shell Script Badge" />
@@ -127,17 +189,31 @@ function Resume() {
 
 <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" alt="JWT Badge" />
 
+{/* INSOMNIA BADGE*/}
 <img src="https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE" alt="insomnia" />
+
+{/* Handlebars BADGE*/}
+<img src="https://img.shields.io/badge/Handlebars-orange" alt="Handlebars Badge" width="210" height="20"></img>
 
 {/* TAILWIND BADGE*/}
 <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS Badge" />
 </div>
 
+  
 <div class="badgeresume">
+{/* HOSTING SECTION*/}
 <h3>Hosting</h3>
+
+{/* AWS BADGE*/} 
 <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+
+{/* GITHUB PAGES BADGE*/}  
 <img src="https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white" alt="Github Pages" />
+
+{/* HEROKU BADGE*/}  
 <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku" />
+
+{/* NETLIFY BADGE*/}  
 <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" alt="Netlify" />
 </div>
 
@@ -185,6 +261,7 @@ function Resume() {
 <h3>Design</h3>
 {/* Canva Badge */}
 <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white" alt="Canva Badge" />
+{/* INKSCAPE BADGE*/}  
 <img src="https://img.shields.io/badge/Inkscape-e0e0e0?style=for-the-badge&logo=inkscape&logoColor=080A13" alt="Inkscape badge" />
 
 </div>
@@ -196,7 +273,6 @@ function Resume() {
 </div>
 </div>
 </section>
-
 
     </div>
   );
