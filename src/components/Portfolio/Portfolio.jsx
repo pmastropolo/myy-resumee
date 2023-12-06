@@ -122,8 +122,8 @@ function Portfolio() {
       title: 'My Resume - React',
       description: 'React application designed to showcase my professional skills and experiences.',
       imageUrl: '',
-      deployed: '',
-      githubLink: '',
+      deployed: 'https://sparkling-frangollo-20e7ef.netlify.app',
+      githubLink: 'https://github.com/pmastropolo/myy-resumee/tree/main',
     },
     {
       id: 15,
