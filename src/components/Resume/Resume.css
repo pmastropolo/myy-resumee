@@ -1,3 +1,4 @@
+/* RESUME CONTAINER */
 .resume-container {
 padding: 50px;
 text-align: center;
@@ -7,34 +8,40 @@ box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 margin-bottom: 20px;
 margin-top: 20px;
 }
-      
+
+/* RESUME CONTAINER H1 */
 .resume-container h1 {
 margin-bottom: 20px;
 }
 
-/* Resume Links */
+/* RESUME LINKS */
 .resume-container a,
 .resume-container .resume-link {
-  font-size: 16px;
-  background-color: #fff;
-  text-decoration: none;
-  margin: 0 10px; /* Adjust the margin to reduce spacing between links */
-  transition: color 0.3s ease;
+font-size: 16px;
+background-color: #fff;
+text-decoration: none;
+ margin: 0 10px; 
+transition: color 0.3s ease;
 }
 
-/* Resume Links Hover Effect */
+/* RESUME LINKS HOVER EFFECT */
 .resume-container a:hover,
 .resume-container .resume-link:hover {
-  color: #0056b3;
+color: #d5e2f0;
 }
 
-/* LINK STYLING */
-a {
-display: inline-block;
-margin-bottom: 20px;
-background-color: #007bff;
-color: rgb(9, 8, 8);
-transition: background-color 0.3s;
+/* RESUME LINKS */
+.resume-link {
+font-size: 16px;
+background-color: #fff;
+text-decoration: none;
+margin: 0 10px;
+transition: color 0.3s ease;
+}
+
+/* HOVER EFFECT RESUME LINKS */
+.resume-link:hover {
+color: #d5e2f0;
 }
 
 /* RESUME SECTION */
@@ -42,19 +49,23 @@ transition: background-color 0.3s;
 text-align: left;
 margin-top: 30px;
 }
-      
+
+/* RESUME SECTION H2 */
 .resume-section h2 {
 border-bottom: 2px solid #333;
 padding-bottom: 5px;
 }
-      
+
+/* EXPERIENCE AND EDUCATION ITEM */
 .experience-item, .education-item {
 margin-bottom: 20px;
 }
-      
+
+/* DATE */
 .date {
 font-style: italic;
 color: #555;
+margin-bottom: 10px;
 }
       
 ul {
@@ -62,33 +73,91 @@ list-style-type: circle;
 margin-left: 20px;
 }
 
+/* LOCATION AND PHONE NUMBER */
 .location, .phone {
-        font-size: 18px; 
+font-size: 18px; 
+}
 
-      }
+/* EXPERIENCE ITEM */
+.experience-item {
+  margin-bottom: 20px;
+  border-left: 2px solid #070708; 
+  padding-left: 10px; 
+}
 
-      /* BADGES AND ICONS */
+/* EXPERIENCE ITEM H3 */
+.experience-item h3 {
+font-size: 25px;
+margin-bottom: 5px;
+}
+
+/* EXPERIENCE ITEM P */
+.experience-item p {
+padding-left: 20px;
+}
+
+
+/* BADGES AND ICONS */
 h2 b {
-  font-size: 24px; /* Decreased font size for badges heading */
+font-size: 24px; 
 }
 
 .badgeresume {
-  margin-bottom: 20px; /* Add margin between badge sections */
+  margin-bottom: 20px; 
+  
 }
 
 .badgeresume img {
-  max-width: 100px; /* Set the maximum width */
-  max-height: 100px; /* Set the maximum height */
-  margin: 10px; /* Added margin for spacing */
+  max-width: 100px; 
+  max-height: 100px; 
+  margin: 10px; 
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Add a background color to badge sections */
+/* BACKGROUND COLOR BADGE SECTIONS */
 .badgeresume h3 {
   background-color: #f5f5f5;
   padding: 10px;
   border-radius: 10px;
-  text-align: left; /* Change text alignment to left */
+  text-align: left; 
+  margin: 0;
+  font-size: 22px;
+}
+
+
+
+.resume-section h2 {
+  font-size: 40px;
+}
+
+/* SKILLS SECTION */
+.skills-section {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.skills-section h2 {
+  font-size: 40px;
+}
+
+
+.skills-section .badgeresume {
+  margin-bottom: 20px;
+}
+
+.skills-section .badgeresume img {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skills-section .badgeresume h3 {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
   margin: 0;
 }
