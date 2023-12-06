@@ -1,8 +1,59 @@
-.certificate-section {
-  margin-top: 30px;
-}
-
-
-.certificate-image {
-  max-width: 100%;
-}
+/* Certificate Container */
+.certificate-container {
+        background-color: white;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        padding: 50px;
+        margin-top: 25px;
+        border-radius: 4px;
+        text-align: left;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      
+      /* Certificate Title */
+      .certificate-container h2 {
+        font-size: 50px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #333;
+        padding-bottom: 5px;
+      }
+      
+      /* Divider Line */
+      .certificate-line h3 {
+        border-bottom: 2px solid #333;
+        margin-top: 40px;
+        font-size: 35px;
+      }
+      
+      /* Certificate Details */
+      .certificate-details {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      
+      /* Certificate Image */
+      .certificate-image {
+        max-width: 75%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        padding-top: 10px;
+        margin-top: 10px;
+      }
+      
+      /* Custom Link Style */
+      .certificate-container .custom-link {
+        text-decoration: none;
+        color: #333;
+      }
+      
+      /* CSS class for the skills section */
+      .websskills {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      
+      /* Make the first word bold in the skills section */
+      .websskills p:first-child {
+        font-weight: bold;
+      }
