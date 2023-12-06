@@ -5,7 +5,7 @@ import certificateImage from './assets/public/images/IMG_4565.png';
 function Certificate() {
   return (
     <div className="certificate-section">
-      <h2>Certificate</h2>
+      <h2>Google SEO Fundamentals</h2>
       <img className="certificate-image" src={certificateImage} alt="Certificate" />
     </div>
   );
