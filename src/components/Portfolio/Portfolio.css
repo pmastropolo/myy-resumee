@@ -13,7 +13,7 @@
 /* PORTFOLIO HEADER */
 .portfolio h1 {
   margin-bottom: 30px;
-  font-size: 60px; 
+  font-size: 65px; 
   color: white;
 }
 
@@ -25,14 +25,18 @@
 /* SHOW DESCRIPTION ON HOVER */
 .portfolio-item:hover .description-hidden {
   display: block;
-  font-size: 18px; /* Adjust the font size as needed for better readability */
-  line-height: 1.6; /* Adjust line height for better readability */
+  font-size: 18px; 
+  line-height: 1.6; 
 }
 
 /* PORTFOLIO HEADER */
 .portfolio h1 {
-  margin-bottom: 30px;
-  font-size: 36px; /* Adjust the font size as needed for a professional look */
+  margin-bottom: 40px;
+  padding: 18px;
+  font-size: 50px; 
+  border: 5px solid #9e9a9a;
+  background-color: #847878;
+  
 }
 
 /* CONTAINER FOR PORTFOLIO ITEMS */
@@ -40,50 +44,50 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #f0f0f0; /* Light gray background */
-  padding: 30px; /* Increase padding for better spacing */
+  background-color: #f0f0f0; 
+  padding: 30px; 
 }
 
 /* INDIVIDUAL ITEM */
 .portfolio-item {
-  margin: 15px; /* Increase margin for better separation */
+  margin: 15px; 
   width: 300px;
   border: 1px solid #ddd;
-  padding: 20px; /* Increase padding for better spacing */
-  border-radius: 10px; /* Rounded corners for a professional look */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Added a subtle box shadow */
-  background-color: #fff; /* White background */
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+  background-color: #fff; 
 }
 
 /* ITEM TITLE */
 .portfolio-item h2 {
-  font-size: 24px; /* Larger font size for headings */
+  font-size: 24px; 
   margin-bottom: 15px;
-  color: #333; /* Dark text color for better readability */
+  color: #333; 
 }
 
 /* IMAGE STYLING IN ITEM */
 .portfolio-item img {
   max-width: 100%;
   height: auto;
-  border-radius: 10px; /* Rounded corners for images */
+  border-radius: 10px; 
   margin-bottom: 15px;
 }
 
 /* LINK BUTTONS */
 .portfolio-item a {
   display: inline-block;
-  background-color: #080808; /* Blue button color */
+  background-color: #080808; 
   color: #fff;
-  padding: 10px 20px; /* Smaller padding for buttons */
+  padding: 10px 20px; 
   border-radius: 5px;
   text-decoration: none;
   margin-top: 10px;
   transition: background-color 0.3s ease;
-  font-weight: bold; /* Make text bold for buttons */
+  font-weight: bold; 
 }
 
 /* BUTTON HOVER EFFECT */
 .portfolio-item a:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #eef1f4; 
 }
