@@ -155,7 +155,7 @@ function About() {
           <h3>Favorite TV Shows</h3>
           <p>The office | Stranger Things | Black Mirror | Breaking Bad | The Big Bang Theory | Fixer Upper | Sons of Anarchy</p>
           <h3>Favorite Foods</h3>
-          <p> Biscuits and Gravy | Sweet Tea | Chater | Chili </p>
+          <p> Biscuits and Gravy | Sweet Tea | Charcuterie Board | Chili | Pizza </p>
           <h3>Personality Type</h3>
           <p><b>ENFJ</b><br></br> "The Teacher" - Natural leaders with excellent communication and interpersonal skills, excelling in mentoring, coaching, and fostering collaboration. Valuable assets in various professional settings.</p>
         </div>

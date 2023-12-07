@@ -10,7 +10,7 @@
 }
 
 .home-header {
-  font-size: 25px;
+  font-size: 16px;
   color: rgb(245, 239, 239);
   border-bottom: 2px solid #e6e6f5;
   margin-bottom: 50px;
@@ -27,7 +27,7 @@
 /* Skills Container */
 .skills-container {
   text-align: center;
-  margin: 50px;
+  margin: 40px;
 }
 
 /* Skills List */
@@ -39,8 +39,8 @@
 
 /* Keyboard-like Button Styling */
 .keyboard-button {
-  margin: 20px;
-  padding: 20px;
+  margin: 5px;
+  padding: 5px;
   background-color: #f0f0f0;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);

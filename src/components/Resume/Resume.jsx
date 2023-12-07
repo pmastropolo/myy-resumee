@@ -15,25 +15,38 @@ return (
   <h2>Education</h2>
     <div className="education-item">
         <h3>UC Davis - Full Stack Web Dev Program</h3>
-          <p className="location">1 Capitol Mall, Sacramento, CA 95814</p>
-          <p className="phone">(205) 237-0991</p>
           <p className="date">July 2023 - Nov 2023</p>
 
-          <ul>
-            <li>Earned a Full Stack Web Development Certificate from UC Davis Coding Boot Camp, specializing in JavaScript and computer science principles like algorithms and efficiency.</li>
-            <br></br>
-            <li>Developed proficiency in HTML/CSS, JavaScript/jQuery, responsive design, Bootstrap, and Handlebars.</li>
-            <br></br>
-            <li>Gained expertise in React.js, local storage (Session Storage and IndexedDB), and database management (MySQL and MongoDB).</li>
-            <br></br>
-            <li>Focused on server-side development, user authentication, and Progressive Web Applications (PWAs) while mastering the MERN stack.</li>
-            <br></br>
-            <li> Acquired skills in API interactions, including API, JSON, and AJAX.</li>
-            <br></br>
-          </ul>
+         
+            <p>Earned a Full Stack Web Development Certificate from UC Davis Coding Boot Camp, specializing in JavaScript and computer science principles like algorithms and efficiency.</p>
+
+            <p>Developed proficiency in HTML/CSS, JavaScript/jQuery, responsive design, Bootstrap, and Handlebars.</p>
+
+            <p>Gained expertise in React.js, local storage (Session Storage and IndexedDB), and database management (MySQL and MongoDB).</p>
+
+            <p>Focused on server-side development, user authentication, and Progressive Web Applications (PWAs) while mastering the MERN stack.</p>
+
+            <p> Acquired skills in API interactions, including API, JSON, and AJAX.</p>
+     
+       
         </div>
 
       </section>
+
+      <section className="resume-section">
+<div className="education-item">
+
+<h3>The University of Alabama</h3>
+<p>Bachelor of Science (BS) in Business Administration and Management</p>
+  <p className="date">Aug 2018 - May 2022</p>
+  <p>Completed a comprehensive program in Business Administration and Management at The University of Alabama.</p>
+    <p>Developed a strong foundation in business principles, including management, marketing, finance, and organizational behavior.</p>
+    <p>Acquired skills in strategic planning, leadership, and problem-solving through coursework and group projects.</p>
+
+</div>
+
+</section>
+
 
       <section className="resume-section">
 <div className="education-item">
@@ -42,15 +55,10 @@ return (
   <p className="location">499 NW 70th Ave, Plantation, FL 33317</p>
   <p className="phone">(866) 306-0247</p>
   <p className="date">August 2013 - May 2014</p>
+  <p>Attained a well-rounded high school education in a nurturing environment, featuring a diverse curriculum encompassing math, science, humanities, and arts, with a focus on critical thinking.</p>
+    <p>Utilized advanced facilities and engaged in community service, demonstrating a commitment to social responsibility.</p>
+    <p>Successfully completed challenging coursework in line with state standards, preparing for future educational and career pursuits.</p>
 
-  <ul>
-    <li>Attained a well-rounded high school education in a nurturing environment, featuring a diverse curriculum encompassing math, science, humanities, and arts, with a focus on critical thinking.</li>
-    <br></br>
-    <li>Utilized advanced facilities and engaged in community service, demonstrating a commitment to social responsibility</li>
-    <br></br>
-    <li>Successfully completed challenging coursework in line with state standards, preparing for future educational and career pursuits.</li>
-    <br></br>
-  </ul>
 
 </div>
 

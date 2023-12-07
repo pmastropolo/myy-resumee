@@ -26,3 +26,20 @@
 .footer-section p:last-child {
   margin-top: 10px;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer-section {
+    padding: 19px;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-section h4,
+  .footer-section p {
+    font-size: 19px;
+    flex-wrap: wrap;
+
+  }
+}
