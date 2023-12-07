@@ -103,62 +103,65 @@
   font-size: 24px; 
   }
   
-  .badgeresume {
-    margin-bottom: 20px; 
-    
-  }
-  
-  .badgeresume img {
-    max-width: 100px; 
-    max-height: 100px; 
-    margin: 10px; 
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* BACKGROUND COLOR BADGE SECTIONS */
-  .badgeresume h3 {
-    background-color: #f5f5f5;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: left; 
-    margin: 0;
-    font-size: 22px;
-  }
-  
-  
-  
-  .resume-section h2 {
-    font-size: 40px;
-  }
-  
-  /* SKILLS SECTION */
-  .skills-section {
-    text-align: left;
-    margin-top: 30px;
-  }
-  
-  .skills-section h2 {
-    font-size: 40px;
-  }
-  
-  
-  .skills-section .badgeresume {
-    margin-bottom: 20px;
-  }
-  
-  .skills-section .badgeresume img {
-    max-width: 100px;
-    max-height: 100px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .skills-section .badgeresume h3 {
-    background-color: #f5f5f5;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: left;
-    margin: 0;
-  }
+/* BADGERESUME STYLES */
+.badgeresume {
+  margin-bottom: 20px;
+}
+
+/* BADGERESUME IMAGE STYLES */
+.badgeresume img {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* BACKGROUND COLOR BADGE SECTIONS STYLES */
+.badgeresume h3 {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+  margin: 0;
+  font-size: 22px;
+}
+
+/* RESUME SECTION H2 STYLES */
+.resume-section h2 {
+  font-size: 40px;
+}
+
+/* SKILLS SECTION STYLES */
+.skills-section {
+  text-align: left;
+  margin-top: 30px;
+}
+
+/* SKILLS SECTION H2 STYLES */
+.skills-section h2 {
+  font-size: 40px;
+}
+
+/* BADGERESUME STYLES IN SKILLS SECTION */
+.skills-section .badgeresume {
+  margin-bottom: 20px;
+}
+
+/* BADGERESUME IMAGE STYLES IN SKILLS SECTION */
+.skills-section .badgeresume img {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* BACKGROUND COLOR BADGE SECTIONS STYLES IN SKILLS SECTION */
+.skills-section .badgeresume h3 {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+  margin: 0;
+}

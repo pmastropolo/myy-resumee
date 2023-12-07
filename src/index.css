@@ -1,80 +1,81 @@
-/* Global Styles */
+/* GLOBAL STYLES */
 body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        margin: 0;
-        padding: 0;
-        color: #333;
-        background-color: #333;
-      }
-      
-      .container {
-        max-width: 100%; /* Adjust to full width for smaller screens */
-        padding: 20px;
-      }
-      
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #333;
+}
 
+/* CONTAINER */
+.container {
+  max-width: 100%; 
+  padding: 20px;
+}
 
-      
-/* Section Styles */
+/* SECTION STYLES */
 .section {
-margin: 20px 0;}
-      
-      .section h2 {
-        font-size: 24px;
-        color: #ffffff;
-        border-bottom: 2px solid #151617;
-        padding-bottom: 10px;
-      }
-      
-      .section p {
-        font-size: 18px;
-        line-height: 1.4;
-      }
-      
-      /* List Styles */
-      ul {
-        list-style-type: disc;
-        margin-left: 20px;
-      }
-      
-      /* Button Styles */
-      .button {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #0d2d42;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 5px;
-        font-size: 18px;
-        margin-top: 10px;
-        transition: background-color 0.3s ease;
-      }
-      
-      .button:hover {
-        background-color: #050709;
-      }
-      
+  margin: 20px 0;
+}
 
-      /* Responsive Styles */
-      @media (max-width: 768px) {
-        .container {
-          padding: 10px;
-        }
-      
-        .header h1 {
-          font-size: 28px;
-        }
-      
-        .section h2 {
-          font-size: 20px;
-        }
-      
-        .section p {
-          font-size: 16px;
-        }
-      
-        .button {
-          font-size: 16px;
-        }
-      }
+/* SECTION H2 */
+.section h2 {
+  font-size: 24px;
+  color: #ffffff;
+  border-bottom: 2px solid #151617;
+  padding-bottom: 10px;
+}
+
+/* SECTION PARAGRAPH */
+.section p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* LIST STYLES */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* BUTTON STYLES */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0d2d42;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* BUTTON HOVER */
+.button:hover {
+  background-color: #050709;
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .section h2 {
+    font-size: 20px;
+  }
+
+  .section p {
+    font-size: 16px;
+  }
+
+  .button {
+    font-size: 16px;
+  }
+}
