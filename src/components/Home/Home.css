@@ -1,4 +1,3 @@
-/* HOME SECTION STYLES */
 
 /* HOME CONTAINER */
 .home-container {
@@ -38,22 +37,3 @@
   justify-content: center;
 }
 
-/* Keyboard-like Button Styling */
-.keyboard-button {
-  margin: 20px;
-  padding: 20px;
-  background-color: #f0f0f0;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
-}
-
-.keyboard-button:hover {
-  transform: scale(1.1);
-}
-
-.keyboard-button p {
-  margin-top: 10px;
-  font-size: 18px;
-  font-weight: bold;
-}

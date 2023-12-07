@@ -14,6 +14,7 @@
 .portfolio h1 {
   margin-bottom: 30px;
   font-size: 65px; 
+  font-size: 65px; 
   color: white;
 }
 
@@ -27,10 +28,18 @@
   display: block;
   font-size: 18px; 
   line-height: 1.6; 
+  font-size: 18px; 
+  line-height: 1.6; 
 }
 
 /* PORTFOLIO HEADER */
 .portfolio h1 {
+  margin-bottom: 40px;
+  padding: 18px;
+  font-size: 50px; 
+  border: 5px solid #9e9a9a;
+  background-color: #847878;
+  
   margin-bottom: 40px;
   padding: 18px;
   font-size: 50px; 
@@ -46,13 +55,20 @@
   justify-content: space-around;
   background-color: #f0f0f0; 
   padding: 30px; 
+  background-color: #f0f0f0; 
+  padding: 30px; 
 }
 
 /* INDIVIDUAL ITEM */
 .portfolio-item {
   margin: 15px; 
+  margin: 15px; 
   width: 300px;
   border: 1px solid #ddd;
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+  background-color: #fff; 
   padding: 20px; 
   border-radius: 10px; 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
@@ -62,7 +78,9 @@
 /* ITEM TITLE */
 .portfolio-item h2 {
   font-size: 24px; 
+  font-size: 24px; 
   margin-bottom: 15px;
+  color: #333; 
   color: #333; 
 }
 
@@ -71,6 +89,7 @@
   max-width: 100%;
   height: auto;
   border-radius: 10px; 
+  border-radius: 10px; 
   margin-bottom: 15px;
 }
 
@@ -78,16 +97,20 @@
 .portfolio-item a {
   display: inline-block;
   background-color: #080808; 
+  background-color: #080808; 
   color: #fff;
+  padding: 10px 20px; 
   padding: 10px 20px; 
   border-radius: 5px;
   text-decoration: none;
   margin-top: 10px;
   transition: background-color 0.3s ease;
   font-weight: bold; 
+  font-weight: bold; 
 }
 
 /* BUTTON HOVER EFFECT */
 .portfolio-item a:hover {
+  background-color: #eef1f4; 
   background-color: #eef1f4; 
 }

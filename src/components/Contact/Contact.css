@@ -38,23 +38,7 @@
   height: 150px;
 }
 
-/* Button Styles */
-.contact-form button {
-  display: block;
-  width: 100%;
-  padding: 12px 0;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 18px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
 
-.contact-form button:hover {
-  background-color: #0056b3;
-}
 
 /* Contact Paragraph */
 .contact-details p {

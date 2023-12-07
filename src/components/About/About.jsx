@@ -148,7 +148,6 @@ function About() {
 <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white" alt="Visual Studio Badge" />
 </div>
 </div>
-    
         {/* Interests and Hobbies Section */}
         <div className="interests-hobbies">
           <h2><b>Interests and Hobbies:</b></h2>
