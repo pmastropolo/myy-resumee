@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react';  // Import React from react
 import { NavLink } from 'react-router-dom'; // Import NavLink from react-router-dom
-import './Navigation.css'; 
+import './Navigation.css'; // Import the Navigation.css file
 
 function Navigation() {
   return (
@@ -26,4 +26,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default Navigation; // Export Navigation component

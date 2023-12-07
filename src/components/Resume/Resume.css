@@ -1,5 +1,4 @@
 /* RESUME CONTAINER */
-/* RESUME CONTAINER */
 .resume-container {
   padding: 50px;
   text-align: center;
@@ -68,7 +67,8 @@
   color: #555;
   margin-bottom: 10px;
   }
-        
+
+  /* EXPERIENCE AND EDUCATION ITEM H3 */
   ul {
   list-style-type: circle;
   margin-left: 20px;

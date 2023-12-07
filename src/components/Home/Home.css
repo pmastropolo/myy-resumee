@@ -9,6 +9,7 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+/* Home Header */
 .home-header {
   font-size: 16px;
   color: rgb(245, 239, 239);
@@ -47,6 +48,7 @@
   transition: transform 0.3s ease;
 }
 
+/* Keyboard Hover Effect */
 .keyboard-button:hover {
   transform: scale(1.1);
 }

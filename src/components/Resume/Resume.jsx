@@ -19,24 +19,16 @@ return (
 
          
             <p>Earned a Full Stack Web Development Certificate from UC Davis Coding Boot Camp, specializing in JavaScript and computer science principles like algorithms and efficiency.</p>
-
             <p>Developed proficiency in HTML/CSS, JavaScript/jQuery, responsive design, Bootstrap, and Handlebars.</p>
-
             <p>Gained expertise in React.js, local storage (Session Storage and IndexedDB), and database management (MySQL and MongoDB).</p>
-
             <p>Focused on server-side development, user authentication, and Progressive Web Applications (PWAs) while mastering the MERN stack.</p>
-
-            <p> Acquired skills in API interactions, including API, JSON, and AJAX.</p>
-     
-       
+            <p> Acquired skills in API interactions, including API, JSON, and AJAX.</p>       
         </div>
-
       </section>
 
-      <section className="resume-section">
-<div className="education-item">
-
-<h3>The University of Alabama</h3>
+<section className="resume-section">
+    <div className="education-item">
+        <h3>The University of Alabama</h3>
 <p>Bachelor of Science (BS) in Business Administration and Management</p>
   <p className="date">Aug 2018 - May 2022</p>
   <p>Completed a comprehensive program in Business Administration and Management at The University of Alabama.</p>

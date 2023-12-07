@@ -1,17 +1,17 @@
-/* Contact Styles */
+/* CONTACT STYLES */
 .contact-container {
   text-align: center;
   padding: 60px;
-  background-color: #333; /* Set the background color for the contact section */
-  color: #fff; /* Set the text color for the contact section */
+  background-color: #333; 
+  color: #fff; 
 }
 
-/* Contact Heading */
+/* CONTACT HEADING */
 .contact-container h1 {
   font-size: 60px;
 }
 
-/* Contact Form Styles */
+/* CONTACT FORM STYLES */
 .contact-form {
   max-width: 650px;
   margin: 0 auto;
@@ -21,26 +21,24 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Input and Textarea Styles */
+/* INPUT AND TEXTAREA STYLES */
 .contact-form input,
 .contact-form textarea {
   width: 100%;
   max-width: 100%;
   margin-bottom: 20px;
   font-size: 22px;
-  background-color: #fff; /* Set the background color for input fields */
-  color: #333; /* Set the text color for input fields */
+  background-color: #fff; 
+  color: #333; 
 }
 
-/* Textarea Styles */
+/* TEXTAREA STYLES */
 .contact-form textarea {
   resize: vertical;
   height: 150px;
 }
 
-
-
-/* Contact Paragraph */
+/* CONTACT PARAGRAPH */
 .contact-details p {
   font-size: 18px;
   margin: 15px 0;

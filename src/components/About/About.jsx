@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import './About.css';
+import React, { useState } from 'react';        // import React, { useState } from'react';
+import './About.css';                           // import './About.css';
 
 function About() {
-  const imageUrl = '/images/profilepicture.jpg';
-  const [showMore, setShowMore] = useState(false);
+  const imageUrl = '/images/profilepicture.jpg';  // Profile Picture
+  const [showMore, setShowMore] = useState(false);  // State for show/hide
 
   return (
     <div className="about-container">
