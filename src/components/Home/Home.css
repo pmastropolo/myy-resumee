@@ -2,50 +2,44 @@
 
 /* HOME CONTAINER */
 .home-container {
-        text-align: center;
-        padding: 50px;
-        position: relative;
-        background-color: aliceblue;
-      }
-      
-      /* HOME HEADING */
-      .home-container h1 {
-        font-size: 3.5em;
-
-      }
-      
-      /* GUESS NUMBER GAME STYLES */
-.home-container form {
-  margin-top: 20px;
-  color: azure;
-  background-color: rgb(136, 171, 171);
+  text-align: center;
+  padding: 50px;
+  position: relative;
+  background-color: #605c5c;
+  margin-top: 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.home-container input[type="number"] {
-  width: 100px;
-  padding: 5px;
-  font-size: 16px;
+.home-header {
+  font-size: 25px;
+  color: rgb(245, 239, 239);
+  border-bottom: 2px solid #e6e6f5;
+  margin-bottom: 50px;
 }
 
-.home-container button {
-  margin-left: 10px;
-  padding: 5px 10px;
-  font-size: 16px;
-  cursor: pointer;
+/* Skills Container */
+.skills-container {
+  text-align: center;
+  padding: 40px;
+  position: relative;
+  background-color: rgb(58, 61, 64);
 }
 
+/* Skills Container */
 .skills-container {
   text-align: center;
   margin: 50px;
 }
 
+/* Skills List */
 .skills-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.skill {
+/* Keyboard-like Button Styling */
+.keyboard-button {
   margin: 20px;
   padding: 20px;
   background-color: #f0f0f0;
@@ -54,16 +48,11 @@
   transition: transform 0.3s ease;
 }
 
-.skill:hover {
+.keyboard-button:hover {
   transform: scale(1.1);
 }
 
-.skill img {
-  width: 64px;
-  height: 64px;
-}
-
-.skill p {
+.keyboard-button p {
   margin-top: 10px;
   font-size: 18px;
   font-weight: bold;
