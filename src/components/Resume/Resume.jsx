@@ -60,14 +60,21 @@ return (
     <h2>Experience</h2>
 
       <div className="experience-item">
-      <h3>Office Administrator - Absolute Cleaning Solutions</h3>
+      <h3>Web Receptionist - Absolute Cleaning Solutions</h3>
       <p className="date">Feb 2019 - December 2022</p>
       <p className="date">Alabaster, Al 35007</p>
-       <p><b>Scheduling:</b> Efficiently managed appointments, coordinating with customers and the field team to ensure timely service delivery.</p>
-        <p><b>Communication:</b> Facilitated effective communication between customers and the field team, ensuring job details and customer expectations were met.</p>
-        <p><b>Administrative Support:</b> Assisted with administrative tasks such as data entry, filing, and maintaining customer records, contributing to improved office organization.</p>
-        <p><b>Billing & Payments:</b> Processed invoices, received payments, and handled billing inquiries, ensuring accurate and timely financial transactions.</p>
-        <p><b>Problem Solving:</b> Resolved customer issues and concerns promptly, ensuring high satisfaction levels and repeat business.</p>
+      <p><b>Online Inquiry Management:</b> Successfully managed online inquiries through website chat, email, and social media, consistently providing prompt and helpful responses.</p>
+<p><b>Website Maintenance:</b> Maintained and updated the company website, ensuring accuracy, visual appeal, and a user-friendly experience.</p>
+<p><b>Online Engagement:</b> Actively engaged with website visitors and social media followers, fostering a vibrant online community by responding to comments, reviews, and feedback, thereby enhancing the user experience.</p>
+<p><b>Data Entry and Documentation:</b> Recorded and maintained visitor logs, appointment schedules, and contact lists with meticulous attention to detail. Generated comprehensive reports on website traffic and user engagement.</p>
+<p><b>Technical Support:</b> Provided effective technical support to website users, guiding them through navigation and efficiently troubleshooting common issues. Collaborated with the IT department to address complex technical problems.</p>
+<p><b>Communication Skills:</b> Demonstrated excellent written and verbal communication, fostering productive interactions with online users.</p>
+<p><b>Web Management Proficiency:</b> Exhibited proficiency in utilizing content management systems (CMS) and showcased a solid understanding of HTML/CSS, enabling minor adjustments and formatting.</p>
+<p><b>Digital Tools Familiarity:</b> Expertly navigated live chat software and email management tools, ensuring efficient handling of online inquiries and correspondence.</p>
+<p><b>Organizational Skills:</b> Maintained exceptional organizational skills to uphold precise data entry and documentation standards, contributing to a streamlined workflow.</p>
+<p><b>Customer Service Orientation:</b> Prioritized a customer-centric approach, consistently delivering a positive user experience.</p>
+<p><b>Multi-Tasking Abilities:</b> Skillfully juggled multiple tasks and effectively prioritized them within a dynamic online environment.</p>
+<p><b>Adaptability:</b> Demonstrated adaptability to evolving technologies and online platforms, staying responsive to ever-changing user needs.</p>
     </div>
     <br></br>
 
