@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './About.css';
 
 function About() {
-  const imageUrl = 'public/images/profilepicture.jpg';
+  const imageUrl = '/images/profilepicture.jpg';
   const [showMore, setShowMore] = useState(false);
 
   return (
