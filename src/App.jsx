@@ -11,7 +11,6 @@ import Navigation from './components/Navigation/Navigation';  // LOAD NAV SECTIO
 import Portfolio from './components/Portfolio/Portfolio';     // LOAD PORTFOLIO SECTION
 import Resume from './components/Resume/Resume';              // LOAD RESUME SECTION
 import Certificate from './components/Certificate/Certificate'; // LOAD CERTIFICATE SECTION
-import Certificate from './components/Certificate/Certificate'; // LOAD CERTIFICATE SECTION
 import Home from './components/Home/Home';                    // LOAD HOME SECTION
 
 function App() {                                            // DEFINE APP COMPONENT FUNCTION
@@ -23,7 +22,6 @@ function App() {                                            // DEFINE APP COMPON
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} /> 
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/certificate" element={<Certificate />} />
         <Route path="/certificate" element={<Certificate />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
