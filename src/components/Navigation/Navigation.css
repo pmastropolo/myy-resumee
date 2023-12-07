@@ -18,7 +18,7 @@
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* Center the links */
+  justify-content: space-around; 
 }
 
 /* Individual Link */
@@ -28,7 +28,7 @@
   text-decoration: none;
   font-size: 1.2em;
   transition: background-color 0.3s ease;
-  margin: 5px; /* Add space between links */
+  margin: 5px; 
 }
 
 /* Link Hover Effect */
@@ -40,22 +40,32 @@
 .active-link {
   background-color: #555;
 }
+
 /* Responsive Styles */
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column; /* Stack links vertically on smaller screens */
-    align-items: flex-start; /* Align links to the left */
+    flex-direction: column; 
+    align-items: flex-start; 
+    padding-left: 20px;
+    padding: 10px 0; 
   }
 
   .nav-links {
-    width: 100%; /* Full width for the links container */
-    justify-content: flex-start; /* Align links to the left */
+    width: 100%; 
+    justify-content: flex-start; 
+    padding: 10px 0;
+    margin: 10px; 
   }
 
   .nav-link {
-    margin: 5px 20px; /* Adjust horizontal spacing */
-    padding: 10px 0; /* Adjust vertical spacing */
-    width: 100%; /* Full width for the links */
-    transition: none; /* Remove the transition on small screens */
+    margin: 10px 10px; 
+    font-size: 20px;
+    padding: 10px 0; 
+    width: 100%; 
+    display: block; 
+    transition: none; 
+  }
+  .nav-link:hover {
+    background-color: #333;
   }
 }
