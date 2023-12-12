@@ -6,8 +6,12 @@ function Footer() {
     <footer className="footer-container">
       <section className="footer-section">
       <p>© 2023 Peyton's React Portfolio</p>
-        <p>pmastropolo188@gmail.com</p>
-        <p>205-705-7145</p>
+      <p>
+          <a href="mailto:pmastropolo188@gmail.com">pmastropolo188@gmail.com</a>
+        </p>
+        <p>
+          <a href="tel:2057057145">205-705-7145</a>
+        </p>
       </section>
     </footer>
   );
