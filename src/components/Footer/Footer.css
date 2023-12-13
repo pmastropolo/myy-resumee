@@ -20,6 +20,18 @@
 .footer-section p {
   margin: 5px 10px;
   font-size: 16.7px;
+  color: #fff;
+}
+
+/* FOOTER LINKS */
+.footer-section a {
+  color: #f7f1f1; 
+  text-decoration: none; 
+}
+
+/* Hover effect for links */
+.footer-section a:hover {
+  color: #aa74d3; 
 }
       
 /* Copyright Text */

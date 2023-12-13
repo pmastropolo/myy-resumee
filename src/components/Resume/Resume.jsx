@@ -1,6 +1,7 @@
 import React from 'react';
 import './Resume.css'; 
 import capstoneImage from '/images/dentalassistant.jpg';  
+import americanhighschoolImage from '/images/americanhighschooldiploma.jpg';
 
 function Resume() {
 return (
@@ -80,6 +81,9 @@ return (
 <a href="https://www.americanonlinehigh.com/" target="_blank" rel="noopener noreferrer">American High School Website</a>
 <a href="mailto:info@AmericanHighSchool.org">info@AmericanHighSchool.org</a>
 </p>
+
+{/* AMERICAN HIGH SCHOOL DIPLOMA IMAGE */}
+<img className="education-image" src={americanhighschoolImage} alt="American High School Diploma" />
 </section>
 
 
