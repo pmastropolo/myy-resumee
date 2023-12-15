@@ -1,14 +1,16 @@
-import React, { useState } from 'react';                          // Import React and useState
-import './Certificate.css';                                       // Import the certificate CSS file
-import certificateImage from '/images/certificate.jpg';           // Import google seo certificate image
-import youtubeCertificateImage from '/images/youtubecertificate.jpg'; // Import youtube seo certificate image
-import digitalmarketingImage from '/images/digitalmarketingimage.jpg';
+import React, { useState } from 'react';                                  // Import React and useState
+import './Certificate.css';                                               // Import the certificate CSS file
+import certificateImage from '/images/certificate.jpg';                   // Import google seo certificate image
+import youtubeCertificateImage from '/images/youtubecertificate.jpg';     // Import youtube seo certificate image
+import digitalmarketingImage from '/images/digitalmarketingimage.jpg';    // Import digital marketing certificate image
+import wixseo from '/images/wixseofundamentalcert.jpg';                   // Import wix seo certificate image
 
 function Certificate() {
   // DEFINE CERTIFICATE LINK
   const certificateLink = "https://www.coursera.org/account/accomplishments/verify/LAUP7GWA35JH?utm_source=ios&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=courseimport";
   const youtubeCertificateLink = "https://alison.com/certification/check/2y10LzMI5IaKz4jRmqidA2wnem1rUVKwDkR9sUFXe5MInFJRwDhhBfQ";
   const digitalMarketing = "https://coursera.org/share/407398509971b622d71378073ac631fa";
+  const wixseoCertificate = "https://www.coursera.org/account/accomplishments/verify/L2Z8AUD9KMDZ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=project";
 
   // CREATE STATE VARIABLE FOR CERTIFICATE LINK
   const [certificate, setCertificate] = useState(certificateLink);
@@ -104,7 +106,38 @@ function Certificate() {
   >
     <b>View Certificate For Foundations of Digital Marketing and E-commerce</b>
   </a>
-</div>   
+</div>  
+
+<br></br>
+<br></br>
+{/* Brand Marketing and SEO Tools using Wix CERTIFICATE */}
+<div className="certificate-details">
+<h3><b>Brand Marketing and SEO Tools using Wix</b></h3>
+<p>- Demonstrated the ability to create and manage Wix accounts efficiently.</p>
+<p>- Established expertise in designing and developing a professional website using the Wix platform.</p>
+<p>- Acquired skills in crafting visually appealing and brand-appropriate logos through Wix's Logo Builder.</p>
+<p>- Applied design principles to create a cohesive brand identity.
+<p>- Demonstrated proficiency in using Wix tools to design engaging and shareable social media posts.</p>
+<p>- Gained hands-on experience in crafting impactful videos, contributing to a well-rounded digital marketing skill set.</p>
+</p>
+<br></br>
+<p><b>Skills</b> Brand Design | Web Marketing | Brand Marketing </p>
+</div>
+
+  {/* Brand Marketing and SEO Tools using Wix CERTIFICATE IMAGE */}
+<img className="certificate-image" src={wixseo} alt="Wix SEO and brand marketing certificate" />
+
+{/* VIEW CERTIFICATE LINK FOR Brand Marketing and SEO Tools using Wix */}
+<div className="certificate-link">
+  <a
+    href={wixseoCertificate}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="custom-link"
+  >
+    <b>View Certificate For Brand Marketing and SEO Tools using Wix</b>
+  </a>
+</div>
 
 
 
