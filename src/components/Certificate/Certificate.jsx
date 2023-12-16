@@ -4,6 +4,7 @@ import certificateImage from '/images/certificate.jpg';                   // Imp
 import youtubeCertificateImage from '/images/youtubecertificate.jpg';     // Import youtube seo certificate image
 import digitalmarketingImage from '/images/digitalmarketingimage.jpg';    // Import digital marketing certificate image
 import wixseo from '/images/wixseofundamentalcert.jpg';                   // Import wix seo certificate image
+import cybergoogle from '/images/googlefoundationsofcybersecurity.jpg'; // Import Foundations of cybersecurity image
 
 function Certificate() {
   // DEFINE CERTIFICATE LINK
@@ -11,6 +12,7 @@ function Certificate() {
   const youtubeCertificateLink = "https://alison.com/certification/check/2y10LzMI5IaKz4jRmqidA2wnem1rUVKwDkR9sUFXe5MInFJRwDhhBfQ";
   const digitalMarketing = "https://coursera.org/share/407398509971b622d71378073ac631fa";
   const wixseoCertificate = "https://www.coursera.org/account/accomplishments/verify/L2Z8AUD9KMDZ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=project";
+ const cybergooglelinkcourse = "https://coursera.org/share/273a5d8a71f8afde932977befb6c607f";
 
   // CREATE STATE VARIABLE FOR CERTIFICATE LINK
   const [certificate, setCertificate] = useState(certificateLink);
@@ -140,6 +142,39 @@ function Certificate() {
 </div>
 
 
+
+
+{/* CYBERSECUIRTY CERTIFICATES */}
+<div className="certificate-line">
+  <h3><b>Certificates - Cybersecurity</b></h3>
+</div>
+
+{/* Foundations of Cybersecurity CERTIFICATE */}
+<div className="certificate-details">
+<h3><b>Foundations of Cybersecurity</b></h3>
+<p>- Recognized core skills and knowledge needed to become a cybersecurity analyst.</p>
+<p>- Able to identify how security attacks impact business operations.</p>
+<p>- Able to identify common tools and explain security ethics used by cybersecurity analysts.</p>
+<br></br>
+<p><b>Skills</b> | Cyber Security | Historical Attacks | Ethics in Cybersecurity | NIST Cybersecurity Framework (CSF) | Information Security (INFOSEC)</p>
+</div>
+
+{/* CERTIFICATE IMAGE */}
+<img className="certificate-image" src={cybergoogle} alt="Certificate" />
+{/* VIEW CERTIFICATE LINK */}
+<div className="certificate-link">
+  <a
+    href={cybergooglelinkcourse}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="custom-link"
+  >
+    <b>View Certificate For Google SEO Fundamentals For Peyton Mastropolo</b>
+  </a>
+</div>
+
+<br></br>
+<br></br>
 
 
     </div>
