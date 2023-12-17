@@ -145,6 +145,15 @@ function Portfolio() {
       githubLink: 'https://github.com/pmastropolo/myy-resumee/tree/main',
     },
 
+    {
+      id: 17,
+      title: 'The Blog Website',
+      description: 'An example blog website built with HTML and CSS.',
+      imageUrl: '/images/blogggywebsiteexample.jpg',
+      deployed: 'https://pmastropolo.github.io/bloggyforwebsiteexample/',
+      githubLink: 'https://github.com/pmastropolo/bloggyforwebsiteexample',
+    },
+
 
   ];
 
