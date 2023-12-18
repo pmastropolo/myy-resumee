@@ -6,7 +6,8 @@ import digitalmarketingImage from '/images/digitalmarketingimage.jpg';    // Imp
 import wixseo from '/images/wixseofundamentalcert.jpg';                   // Import wix seo certificate image
 import cybergoogle from '/images/googlefoundationsofcybersecurity.jpg'; // Import Foundations of cybersecurity image
 import parttwogooglecyberimage from '/images/parttwoplayitsafegooglecyber.jpg'; // Import Part 2 Google Cybersecurity, Plat it safe, manage security risks image certificate
-import partthreecybergoogleimage from '/images/partthreegooglecybercertimage.jpg';
+import partthreecybergoogleimage from '/images/partthreegooglecybercertimage.jpg'; // Import part 3 google cyber security image
+import designartimage from '/images/designartcertimage.jpg'; // Import Fashion as Design Cert Image
 
 function Certificate() {
   // DEFINE CERTIFICATE LINK
@@ -17,6 +18,7 @@ function Certificate() {
  const cybergooglelinkcourse = "https://coursera.org/share/273a5d8a71f8afde932977befb6c607f";
  const parttwogooglecyber = "https://coursera.org/share/ac3495d4622049606f6091b6455dba6c";
  const partthreegooglecyber = "https://coursera.org/share/3b8e3b8290b5991992636c60e5f9fb59";
+ const designartcourse = "https://coursera.org/share/faf8237cb9e266b3b2ddb10dde74d790";
 
   // CREATE STATE VARIABLE FOR CERTIFICATE LINK
   const [certificate, setCertificate] = useState(certificateLink);
@@ -173,7 +175,7 @@ function Certificate() {
     rel="noopener noreferrer"
     className="custom-link"
   >
-    <b>View Certificate For Google SEO Fundamentals For Peyton Mastropolo</b>
+    <b>View Certificate For Foundations of Cybersecurity For Peyton Mastropolo</b>
   </a>
 </div>
 <br></br>
@@ -200,7 +202,7 @@ function Certificate() {
     rel="noopener noreferrer"
     className="custom-link"
   >
-    <b>View Certificate For Google Cybersecurity; Play It Safe: Manage Security Risks For Peyton Mastropolo</b>
+    <b>View Certificate For Manage Security Risks For Peyton Mastropolo</b>
   </a>
 </div>
 <br></br>
@@ -227,15 +229,43 @@ function Certificate() {
     rel="noopener noreferrer"
     className="custom-link"
   >
-    <b>View Certificate For Google Cybersecurity; Connect and Protect: Networks and Network Security For Peyton Mastropolo</b>
+    <b>View Certificate For Networks and Network Security For Peyton Mastropolo</b>
   </a>
 </div>
 <br></br>
 <br></br>
 
+{/* DESIGN CERTIFICATES */}
+<div className="certificate-line">
+  <h3><b>Certificates - Design</b></h3>
+</div>
 
+{/* Modern and Contemporary Art and Design Specialization CERTIFICATE */}
+<div className="certificate-details">
+<h3><b>Modern and Contemporary Art and Design Specialization</b></h3>
+<p>- Acquired in-depth knowledge of artists' and designers' creative processes, emphasizing their experimentation methods and adaptation to technological advancements.</p>
+<p>- Enhanced critical thinking and observational skills, enabling a nuanced understanding of how artists and designers address social and cultural issues through their work.</p>
+<p>- Developed proficiency in analyzing and discussing modern and contemporary art and design, drawing inspiration from diverse artistic expressions in everyday life.</p>
+<p>- Gained insights into personal fashion choices, focusing on expression and identity, while understanding the impact of labor practices and sustainability in the fashion industry.</p>
+<br></br>
+<p><b>Skills</b> | Design | Art | History | Photography | Museums </p>
+</div>
 
-
+{/* CERTIFICATE IMAGE */}
+<img className="certificate-image" src={designartimage} alt="Certificate" />
+{/* VIEW CERTIFICATE LINK */}
+<div className="certificate-link">
+  <a
+    href={designartcourse}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="custom-link"
+  >
+    <b>View Certificate For Modern and Contemporary Art and Design For Peyton Mastropolo</b>
+  </a>
+</div>
+<br></br>
+<br></br>
 
 
 
