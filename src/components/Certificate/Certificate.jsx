@@ -4,10 +4,11 @@ import certificateImage from '/images/certificate.jpg';                   // Imp
 import youtubeCertificateImage from '/images/youtubecertificate.jpg';     // Import youtube seo certificate image
 import digitalmarketingImage from '/images/digitalmarketingimage.jpg';    // Import digital marketing certificate image
 import wixseo from '/images/wixseofundamentalcert.jpg';                   // Import wix seo certificate image
-import cybergoogle from '/images/googlefoundationsofcybersecurity.jpg'; // Import Foundations of cybersecurity image
-import parttwogooglecyberimage from '/images/parttwoplayitsafegooglecyber.jpg'; // Import Part 2 Google Cybersecurity, Plat it safe, manage security risks image certificate
-import partthreecybergoogleimage from '/images/partthreegooglecybercertimage.jpg'; // Import part 3 google cyber security image
-import designartimage from '/images/designartcertimage.jpg'; // Import Fashion as Design Cert Image
+import cybergoogle from '/images/googlefoundationsofcybersecurity.jpg';                 // Import Foundations of cybersecurity image
+import parttwogooglecyberimage from '/images/parttwoplayitsafegooglecyber.jpg';         // Import Part 2 Google Cybersecurity, Plat it safe, manage security risks image certificate
+import partthreecybergoogleimage from '/images/partthreegooglecybercertimage.jpg';      // Import part 3 google cyber security image
+import designartimage from '/images/designartcertimage.jpg';                            // Import Fashion as Design Cert Image
+import parttwogoogleseoimageee from '/images/googleseoparttwo.jpg';                          // Import Part 2 Google SEO image certificate
 
 function Certificate() {
   // DEFINE CERTIFICATE LINK
@@ -19,6 +20,7 @@ function Certificate() {
  const parttwogooglecyber = "https://coursera.org/share/ac3495d4622049606f6091b6455dba6c";
  const partthreegooglecyber = "https://coursera.org/share/3b8e3b8290b5991992636c60e5f9fb59";
  const designartcourse = "https://coursera.org/share/faf8237cb9e266b3b2ddb10dde74d790";
+ const parttwogoogleseolink = "https://coursera.org/share/08f9becd67e2dc1b631abd7c46b85fb8";
 
   // CREATE STATE VARIABLE FOR CERTIFICATE LINK
   const [certificate, setCertificate] = useState(certificateLink);
@@ -33,15 +35,15 @@ function Certificate() {
   <h3><b>Certificates - Digital Marketing & SEO</b></h3>
 </div>
 
-{/* GOOGLE SEO FUNDAMENTALS CERTIFICATE */}
+{/* Introduction to Google SEO CERTIFICATE */}
 <div className="certificate-details">
-<h3><b>Google SEO Fundamentals</b></h3>
-<p>- Completed a competitive analysis on a webpage</p>
-<p>- Interpreted brand recognition through social media</p>
-<p>- Created sitemaps and robot.txt files, planned redirects, and managed site errors</p>
-<p>- Used a variety of SEO tools to conduct an audience analysis and develop personas of ideal buyers</p>
+<h3><b>Introduction to Google SEO</b></h3>
+<p>- Conducted an in-depth analysis of the impact of advertisements and corporate investments on search engine development, focusing on ethical considerations and commercial influences.</p>
+<p>- Evaluated the evolution of search engine algorithms, comparing and contrasting various updates to understand their impact on search result accuracy and relevance.</p>
+<p>- Developed unique web content optimized for search engines, employing SEO strategies to improve website visibility and search result rankings.</p>
+<p>- Devised comprehensive optimization strategies for clients, incorporating industry best practices to enhance their search engine rankings and online presence.</p>
 <br></br>
-<p><b>Skills</b> | Social Media | Keyword Research | Marketing | Mathematical Optimization</p>
+<p><b>Skills</b> | Search Algorithm | Search Engine Optimization (SEO) | Semantics | Mathematical Optimization</p>
 </div>
 
 {/* CERTIFICATE IMAGE */}
@@ -54,12 +56,45 @@ function Certificate() {
     rel="noopener noreferrer"
     className="custom-link"
   >
+    <b>View Certificate For Introduction to Google SEO For Peyton Mastropolo</b>
+  </a>
+</div>
+
+<br></br>
+<br></br>
+
+{/* Google SEO Fundamentals CERTIFICATE */}
+<div className="certificate-details">
+<h3><b>Google SEO Fundamentals</b></h3>
+<p>- Conducted comprehensive competitive analyses of webpages, evaluating key metrics and strategies to inform and enhance digital marketing initiatives.</p>
+<p>- Proficient in analyzing social media trends and engagement to assess and interpret brand recognition, contributing to effective brand positioning and marketing strategies.</p>
+<p>- Skilled in creating and managing technical SEO elements including sitemaps, robots.txt files, planning redirects, and addressing site errors to optimize website performance.</p>
+<p>- Utilized a range of SEO tools for in-depth audience analysis, successfully developing buyer personas to guide targeted and effective marketing strategies.</p>
+<br></br>
+<p><b>Skills</b> | Social Media | Keyword Research | Marketing | Mathematical Optimization</p>
+</div>
+
+{/* CERTIFICATE IMAGE */}
+<img className="certificate-image" src={parttwogoogleseoimageee} alt="Certificate" />
+{/* VIEW CERTIFICATE LINK */}
+<div className="certificate-link">
+  <a
+    href={parttwogoogleseolink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="custom-link"
+  >
     <b>View Certificate For Google SEO Fundamentals For Peyton Mastropolo</b>
   </a>
 </div>
 
 <br></br>
 <br></br>
+
+
+
+
+
 {/* YouTube Marketing and YouTube SEO Fundamentals CERTIFICATE */}
 <div className="certificate-details">
 <h3><b>YouTube Marketing and YouTube SEO Fundamentals </b></h3>

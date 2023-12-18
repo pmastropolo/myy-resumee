@@ -38,6 +38,11 @@ function Home() {
     'MongoDB',
     'SQL',
     'RESTful APIs',
+    'Handlebars',
+    'MVC Paradigm',
+    'Inquirer 8.2.4',
+    'Netlify',
+
   ];
 
   return (

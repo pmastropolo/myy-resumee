@@ -111,6 +111,7 @@ return (
 <p><b>Customer Service Orientation:</b> Prioritized a customer-centric approach, consistently delivering a positive user experience.</p>
 <p><b>Multi-Tasking Abilities:</b> Skillfully juggled multiple tasks and effectively prioritized them within a dynamic online environment.</p>
 <p><b>Adaptability:</b> Demonstrated adaptability to evolving technologies and online platforms, staying responsive to ever-changing user needs.</p>
+<p><b>Skills</b> | Data Entry | Online Community Engagement | Online Inquiry Management | Website Maintenance and Management</p>
 </div>
 
 {/* ABSOLUTE CLEANING SOLUTIONS PHONE NUMBER, EMAIL, AND WEBSITE */}
@@ -131,6 +132,7 @@ return (
 <p><b>SEO and Marketing:</b> Handled search engine optimization (SEO) work to prioritize product marketing to customers.</p>
 <p><b>Customer Support:</b> Resolved customers' complaints and issues using established company procedures, providing top-notch customer support.</p>
 <p><b>Communication:</b> Responded to customer queries over email and through the website's chat support, highlighting strong communication skills.</p>
+<p><b>Skills</b> | Inventory Management Skills | Inventory Monitoring | Customer Support | Sales | Customer Engagement | E-Commerce Platform Proficiency | Communication </p>
 </div>
 <br></br>
 
@@ -191,6 +193,7 @@ return (
 <p><b>Administrative Efficiency:</b> Executed various office duties, including running errands and delivering checks to other locations, showcasing reliability and dedication to meeting organizational needs.</p>
 <p><b>Time Management:</b> Performed driving responsibilities covering extensive miles, demonstrating strong time management and organizational skills while ensuring the timely delivery of documents and materials.</p>
 <p><b>Customer Engagement:</b> Welcomed and assisted customers upon entering the building, fostering a friendly and welcoming atmosphere.</p>
+<p><b>Skills</b> | Office Management Competencies | Time Management and Organization | Customer Engagement and Interpersonal Abilities | Attention to Detail</p>
 </div>
 <br></br>
 

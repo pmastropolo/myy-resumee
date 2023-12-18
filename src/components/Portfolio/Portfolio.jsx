@@ -154,6 +154,24 @@ function Portfolio() {
       githubLink: 'https://github.com/pmastropolo/bloggyforwebsiteexample',
     },
 
+    {
+      id: 18,
+      title: 'Note Taker App',
+      description: 'Note taking application, featuring Express.js, that allows you to write/save notes.',
+      imageUrl: '/images/challelevennotetakingapp.jpg',
+      deployed: 'https://chall-eleven-note-taker-app-7f995fb9ffb7.herokuapp.com/notes',
+      githubLink: 'https://github.com/pmastropolo/chall-eleven-note-taker-app-express-js',
+    },
+
+    {
+      id: 19,
+      title: 'Alabama Pressure Washing Community Blog',
+      description: 'CMS-style blog site, with MVC (Model, View, Controller), for pressure washing community.',
+      imageUrl: '/images/alabamapressurewashingcommunity.jpg',
+      deployed: '',
+      githubLink: '',
+    },
+
 
   ];
 
