@@ -11,6 +11,7 @@ function Portfolio() {
       deployed: 'https://pmastropolo.github.io/module-five-challenge-api-day-schedule/',
       githubLink: 'https://github.com/pmastropolo/module-five-challenge-api-day-schedule/tree/main',
     },
+
     {
       id: 2,
       title: 'Coding Quiz',
@@ -19,8 +20,19 @@ function Portfolio() {
       deployed: 'https://pmastropolo.github.io/chall-four-project-web-apis-coding-quiz-module/',
       githubLink: 'https://github.com/pmastropolo/chall-four-project-web-apis-coding-quiz-module',
     },
+
     {
       id: 3,
+      title: 'Note Taker App',
+      description: 'Note taking application, featuring Express.js, that allows you to write/save notes.',
+      imageUrl: '/images/challelevennotetakingapp.jpg',
+      deployed: 'https://chall-eleven-note-taker-app-7f995fb9ffb7.herokuapp.com/notes',
+      githubLink: 'https://github.com/pmastropolo/chall-eleven-note-taker-app-express-js',
+    },
+
+
+    {
+      id: 4,
       title: 'Hoarders Corner',
       description: 'Hoarders Corner is an innovative platform designed to cater to the diverse interests of collectors.',
       imageUrl: '/images/hoarderscorner.jpg',
@@ -29,7 +41,7 @@ function Portfolio() {
     },
 
     {
-      id: 4,
+      id: 5,
       title: 'Password Generator',
       description: 'Generates random passwords based on user choices.',
       imageUrl: '/images/javascriptpassword.jpg',
@@ -37,7 +49,7 @@ function Portfolio() {
       githubLink: 'https://github.com/pmastropolo/module-three-javascript-password-generator-project',
     },
     {
-      id: 5,
+      id: 6,
       title: 'SVG Logo Maker',
       description: 'Command-line logo generator with user-defined text and shape.',
       imageUrl: '/images/logomakersvg.jpg',
@@ -45,7 +57,7 @@ function Portfolio() {
       githubLink: ' https://github.com/pmastropolo/project-ten-svg-simple-logo-maker-challenge',
     },
     {
-      id: 6,
+      id: 7,
       title: 'Movie Recommender',
       description: 'Helps users pick a movie based on genre or title.',
       imageUrl: '/images/movierecom.jpg',
@@ -54,7 +66,7 @@ function Portfolio() {
     },
 
     {
-      id: 7,
+      id: 8,
       title: 'CodeMantic Dating Web Application',
       description: 'A unique dating application written by developers for developers.',
       imageUrl: '/images/codemantic.jpg',
@@ -63,7 +75,7 @@ function Portfolio() {
     },
 
     {
-      id: 8,
+      id: 9,
       title: 'Back End E Commerce Module',
       description: 'A back-end for an e-commerce platform using Express.js API, Sequelize, and MySQL.',
       imageUrl: '/images/ormprojectttt.jpg',
@@ -73,7 +85,7 @@ function Portfolio() {
 
 
     {
-      id: 9,
+      id: 10,
       title: 'Employee Tracker',
       description: 'A command line application to manage a companys employee database, featuring Node.js, Inquirer 8.2.4, and MySQL.',
       imageUrl: '/images/employee.jpg',
@@ -83,7 +95,7 @@ function Portfolio() {
 
 
     {
-      id: 10,
+      id: 11,
       title: 'README Generator',
       description: 'A Readme Generator featuring node and inquirer 8.2.4 command line application',
       imageUrl: '/images/readmegenerator.jpg',
@@ -92,7 +104,7 @@ function Portfolio() {
     },
 
     {
-      id: 11,
+      id: 12,
       title: 'Horiseon',
       description: 'Refactored Existing Code using HTML & CSS',
       imageUrl: '/images/horiseon.jpg',
@@ -101,7 +113,7 @@ function Portfolio() {
     },
 
     {
-      id: 12,
+      id: 13,
       title: 'Advanced CSS Resume',
       description: 'A portfolio that displays projects I have worked on.',
       imageUrl: '/images/advanceddcss.jpg',
@@ -110,7 +122,7 @@ function Portfolio() {
     },
 
     {
-      id: 13,
+      id: 14,
       title: 'Regex Tutorial',
       description: 'A regex, or regular expression, tutorial for email validation',
       imageUrl: '/images/tutututut.jpg',
@@ -119,7 +131,7 @@ function Portfolio() {
     },
 
     {
-      id: 14,
+      id: 15,
       title: 'Study Guide - The Basics of Coding',
       description: 'Study Guide built using HTML, CSS, & JavaScript',
       imageUrl: '/images/studyguidebasics.jpg',
@@ -128,7 +140,7 @@ function Portfolio() {
     },
 
     {
-      id: 15,
+      id: 16,
       title: 'Social App',
       description: 'An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.',
       imageUrl: '/images/social.jpg',
@@ -137,7 +149,7 @@ function Portfolio() {
     },
 
     {
-      id: 16,
+      id: 17,
       title: 'My Resume - React',
       description: 'React application designed to showcase my professional skills and experiences.',
       imageUrl: '/images/resumereactt.jpg',
@@ -146,7 +158,7 @@ function Portfolio() {
     },
 
     {
-      id: 17,
+      id: 18,
       title: 'The Blog Website',
       description: 'An example blog website built with HTML and CSS.',
       imageUrl: '/images/blogggywebsiteexample.jpg',
@@ -155,16 +167,16 @@ function Portfolio() {
     },
 
     {
-      id: 18,
-      title: 'Note Taker App',
-      description: 'Note taking application, featuring Express.js, that allows you to write/save notes.',
-      imageUrl: '/images/challelevennotetakingapp.jpg',
-      deployed: 'https://chall-eleven-note-taker-app-7f995fb9ffb7.herokuapp.com/notes',
-      githubLink: 'https://github.com/pmastropolo/chall-eleven-note-taker-app-express-js',
+      id: 19,
+      title: 'Bham SEO & Design Co',
+      description: 'Powered by React, Next.js, and a suite of development tools.',
+      imageUrl: '/images/bhamseoanddesignimage.jpg',
+      deployed: 'https://ephemeral-khapse-414cfb.netlify.app/',
+      githubLink: 'https://github.com/pmastropolo/bham-digital-design-and-seo',
     },
 
     {
-      id: 19,
+      id: 20,
       title: 'Alabama Pressure Washing Community Blog',
       description: 'CMS-style blog site, with MVC (Model, View, Controller), for pressure washing community.',
       imageUrl: '/images/alabamapressurewashingcommunity.jpg',
