@@ -175,14 +175,7 @@ function Portfolio() {
       githubLink: 'https://github.com/pmastropolo/bham-digital-design-and-seo',
     },
 
-    {
-      id: 20,
-      title: 'Alabama Pressure Washing Community Blog',
-      description: 'CMS-style blog site, with MVC (Model, View, Controller), for pressure washing community.',
-      imageUrl: '/images/alabamapressurewashingcommunity.jpg',
-      deployed: '',
-      githubLink: '',
-    },
+
 
 
   ];

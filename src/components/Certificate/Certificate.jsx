@@ -11,16 +11,17 @@ import designartimage from '/images/designartcertimage.jpg';                    
 import parttwogoogleseoimageee from '/images/googleseoparttwo.jpg';                          // Import Part 2 Google SEO image certificate
 
 function Certificate() {
-  // DEFINE CERTIFICATE LINK
-  const certificateLink = "https://www.coursera.org/account/accomplishments/verify/LAUP7GWA35JH?utm_source=ios&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=courseimport";
-  const youtubeCertificateLink = "https://alison.com/certification/check/2y10LzMI5IaKz4jRmqidA2wnem1rUVKwDkR9sUFXe5MInFJRwDhhBfQ";
-  const digitalMarketing = "https://coursera.org/share/407398509971b622d71378073ac631fa";
-  const wixseoCertificate = "https://www.coursera.org/account/accomplishments/verify/L2Z8AUD9KMDZ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=project";
- const cybergooglelinkcourse = "https://coursera.org/share/273a5d8a71f8afde932977befb6c607f";
- const parttwogooglecyber = "https://coursera.org/share/ac3495d4622049606f6091b6455dba6c";
- const partthreegooglecyber = "https://coursera.org/share/3b8e3b8290b5991992636c60e5f9fb59";
- const designartcourse = "https://coursera.org/share/faf8237cb9e266b3b2ddb10dde74d790";
- const parttwogoogleseolink = "https://coursera.org/share/08f9becd67e2dc1b631abd7c46b85fb8";
+  
+// DEFINE CERTIFICATE LINK
+const certificateLink = "https://www.coursera.org/account/accomplishments/verify/LAUP7GWA35JH?utm_source=ios&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=courseimport";
+const youtubeCertificateLink = "https://alison.com/certification/check/2y10LzMI5IaKz4jRmqidA2wnem1rUVKwDkR9sUFXe5MInFJRwDhhBfQ";
+const digitalMarketing = "https://coursera.org/share/407398509971b622d71378073ac631fa";
+const wixseoCertificate = "https://www.coursera.org/account/accomplishments/verify/L2Z8AUD9KMDZ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=project";
+const cybergooglelinkcourse = "https://coursera.org/share/273a5d8a71f8afde932977befb6c607f";
+const parttwogooglecyber = "https://coursera.org/share/ac3495d4622049606f6091b6455dba6c";
+const partthreegooglecyber = "https://coursera.org/share/3b8e3b8290b5991992636c60e5f9fb59";
+const designartcourse = "https://coursera.org/share/faf8237cb9e266b3b2ddb10dde74d790";
+const parttwogoogleseolink = "https://coursera.org/share/08f9becd67e2dc1b631abd7c46b85fb8";
 
   // CREATE STATE VARIABLE FOR CERTIFICATE LINK
   const [certificate, setCertificate] = useState(certificateLink);

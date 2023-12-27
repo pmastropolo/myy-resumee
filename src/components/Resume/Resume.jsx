@@ -2,8 +2,10 @@ import React from 'react';
 import './Resume.css'; 
 import capstoneImage from '/images/dentalassistant.jpg';  
 import americanhighschoolImage from '/images/americanhighschooldiploma.jpg';
+import fullstackwebdevImage from '/images/full-stack-developer.png';
 
 function Resume() {
+  const fullstackwebdevlink="https://www.credly.com/badges/ee7acb59-973c-49af-b764-e85f43766d3c/public_url";
 return (
 
 <div className="resume-container">
@@ -27,8 +29,25 @@ return (
 <p><b>Technical Proficiency:</b> Developed proficiency in HTML/CSS, JavaScript/jQuery, responsive design, Bootstrap, and Handlebars.</p>
 <p><b>Advanced Expertise:</b> Gained expertise in React.js, local storage (Session Storage and IndexedDB), and database management (MySQL and MongoDB).</p>
 <p><b>MERN Stack Mastery:</b> Focused on server-side development, user authentication, and Progressive Web Applications (PWAs) while mastering the MERN stack.</p>
-<p><b>API Interaction Skills:</b> Acquired skills in API interactions, including API, JSON, and AJAX.</p>      
+<p><b>API Interaction Skills:</b> Acquired skills in API interactions, including API, JSON, and AJAX.</p>
+<p><b>Skills</b> | Coding | CSS | Data Structure | JavaScript | JQuery | Node.js | Algorithms | HTML</p>      
 </div>
+
+{/* FULL STACK WEB DEV BADGE IMAGE */}
+<img className="education-image" src={fullstackwebdevImage} alt="Full Stack Developer Certificate" />
+
+{/* VIEW FULL STACK WEB DEV CERTIFICATE LINK */}
+<div className="certificate-link">
+  <a
+    href={fullstackwebdevlink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="custom-link"
+  >
+    <b>View Badge For Full Stack Developer For Peyton Mastropolo</b>
+  </a>
+</div>
+
 </section>
 
 {/* CAPSTONE DENTAL ASSISTANT PROGRAM */}  
