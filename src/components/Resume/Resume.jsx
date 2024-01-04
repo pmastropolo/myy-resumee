@@ -3,6 +3,7 @@ import './Resume.css';
 import capstoneImage from '/images/dentalassistant.jpg';  
 import americanhighschoolImage from '/images/americanhighschooldiploma.jpg';
 import fullstackwebdevImage from '/images/full-stack-developer.png';
+import certucdavis from '/images/ucdaviscertificate.jpg';
 
 function Resume() {
   const fullstackwebdevlink="https://www.credly.com/badges/ee7acb59-973c-49af-b764-e85f43766d3c/public_url";
@@ -34,9 +35,9 @@ return (
 </div>
 
 {/* FULL STACK WEB DEV BADGE IMAGE */}
-<img className="education-image" src={fullstackwebdevImage} alt="Full Stack Developer Certificate" />
+<img className="education-image" src={fullstackwebdevImage} alt="Full Stack Developer Badge" />
 
-{/* VIEW FULL STACK WEB DEV CERTIFICATE LINK */}
+{/* VIEW FULL STACK WEB DEV BADGE LINK */}
 <div className="certificate-link">
   <a
     href={fullstackwebdevlink}
@@ -47,6 +48,12 @@ return (
     <b>View Badge For Full Stack Developer For Peyton Mastropolo</b>
   </a>
 </div>
+
+{/* FULL STACK WEB DEV CERTIFICATE IMAGE */}
+<img className="education-image" src={certucdavis} alt="Full Stack Developer Certificate" />
+
+
+
 
 </section>
 
