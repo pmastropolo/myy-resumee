@@ -42,6 +42,8 @@ function Home() {
     'MVC Paradigm',
     'Inquirer 8.2.4',
     'Netlify',
+    'Next.js',
+    'Tailwind CSS',
 
   ];
 
