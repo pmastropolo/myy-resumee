@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer-container">
       <section className="footer-section">
-      <p>© 2023 Peyton's React Portfolio</p>
+      <p>© 2024 Peyton's React Portfolio</p>
       <p>
           <a href="mailto:pmastropolo188@gmail.com">pmastropolo188@gmail.com</a>
         </p>
