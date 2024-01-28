@@ -171,7 +171,7 @@ function Portfolio() {
       title: 'Bham SEO & Design Co',
       description: 'Powered by React, Next.js, and a suite of development tools.',
       imageUrl: '/images/bhamseoanddesignimage.jpg',
-      deployed: 'https://ephemeral-khapse-414cfb.netlify.app/',
+      deployed: 'https://bhamseoanddesignco.com',
       githubLink: 'https://github.com/pmastropolo/bham-digital-design-and-seo',
     },
 
