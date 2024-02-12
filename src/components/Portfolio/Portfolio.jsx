@@ -13,6 +13,15 @@ function Portfolio() {
     },
 
     {
+      id: 20,
+      title: 'Bham Web Design and SEO',
+      description: 'Modern design with Next.js and React',
+      imageUrl: '/images/updated-website.jpg',
+      deployed: 'https://bhamwebdesignandseoco.com/',
+      githubLink: 'https://github.com/pmastropolo/web-design-web',
+    },
+
+    {
       id: 2,
       title: 'Coding Quiz',
       description: 'A timed JavaScript quiz. Tracks user scores and offers saving initials and scores.',
