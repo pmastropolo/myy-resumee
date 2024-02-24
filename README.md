@@ -1,4 +1,4 @@
-# myy-resumee
+# Peyton Mastropolo Resume
 A visually appealing and user-friendly React application that showcases professional skills, experiences, and projects, allowing potential employers or clients to easily explore  qualifications. 
 
 ![License](https://img.shields.io/badge/license-MIT-pink.svg?style=for-the-badge)
