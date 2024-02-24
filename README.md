@@ -31,7 +31,7 @@ Links:
 
 :arrow_forward: [Github Link:] (https://github.com/pmastropolo/myy-resumee/tree/main)
 
-:arrow_forward: [Deployed on Netlify:] (https://sparkling-frangollo-20e7ef.netlify.app)
+:arrow_forward: [Deployed on Netlify:] (https://peyton-mastropolo-resume.netlify.app/)
 
 ## Links
 
@@ -39,7 +39,7 @@ Links:
 
 :arrow_forward: Github link: https://github.com/pmastropolo/myy-resumee/tree/main
 
-:arrow_forward: Deployed on Netlify: https://sparkling-frangollo-20e7ef.netlify.app
+:arrow_forward: Deployed on Netlify: https://peyton-mastropolo-resume.netlify.app/
 
 ## Netlify
 
